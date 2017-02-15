@@ -1,0 +1,12 @@
+channels:
+    - https://conda.anaconda.org/conda-forge
+    - https://conda.anaconda.org/anaconda
+name: data-fest
+specs:
+- python 3.6*
+- conda 4.3*
+- pandas
+- scikit-learn
+- statsmodels
+- matplotlib 2.*
+version: 2017
