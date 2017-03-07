@@ -53,11 +53,11 @@ below.
 # switches to your home directory
 cd
 # activates the conda environment you installed
-datafest\Scripts\activate
+datafest\Scripts\activate.bat
 # pulls the workshop materials from GitHub
 git clone https://github.com/maxpoint/datafest-2017.git
 # runs a Jupyter Notebook server for local use
-jupyter notebook --notebooks-dir .\datafest-2017\notebooks
+jupyter notebook --notebook-dir .\datafest-2017\notebooks
 ```
 
 If your web browser opens to a page with the Jupyter logo in the top right
@@ -86,7 +86,7 @@ source datafest/bin/activate
 # pulls the workshop materials from GitHub
 git clone https://github.com/maxpoint/datafest-2017.git
 # runs a Jupyter Notebook server for local use
-jupyter notebook --notebooks-dir ./datafest-2017/notebooks
+jupyter notebook --notebook-dir ./datafest-2017/notebooks
 ```
 
 If your web browser opens to a page with the Jupyter logo in the top right
