@@ -39,8 +39,10 @@ below.
 1. Use Windows Explorer to open your Downloads folder.
 2. Double-click the installer file you downloaded.
 3. Step through the pages of the installer, using the default values
-   until you hit the *Advanced Options* page.
-4. Uncheck both checkboxes on the *Advanced Options* page.
+   except in two cases:
+   1. Choose `C:\Users\<your username>\datafest` for the install location,
+      substituting the appropriate drive letter if C is not your main drive.
+   2. Uncheck both checkboxes on the *Advanced Options* page.
 5. Click *Install*.
 6. Click *Finish* when the installer completes.
 7. Click the *Start* menu button in the task bar.
