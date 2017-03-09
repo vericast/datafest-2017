@@ -1,12 +1,15 @@
 channels:
     - https://conda.anaconda.org/conda-forge
     - https://conda.anaconda.org/anaconda
-name: data-fest
+name: datafest
 specs:
-- python 3.6*
-- conda 4.3*
-- pandas
-- scikit-learn
-- statsmodels
-- matplotlib 2.*
+    - python 3.6*
+    - conda 4.3*
+    - git
+    - matplotlib 2.*
+    - nomkl           # [not win]
+    - notebook 4.*
+    - pandas
+    - scikit-learn
+    - statsmodels
 version: 2017
