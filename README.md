@@ -51,9 +51,9 @@ below.
 
 ```bash
 # switches to your home directory
-cd
+cd %userprofile%
 # activates the conda environment you installed
-datafest\Scripts\activate.bat
+datafest\Scripts\activate
 # pulls the workshop materials from GitHub
 git clone https://github.com/maxpoint/datafest-2017.git
 # runs a Jupyter Notebook server for local use
