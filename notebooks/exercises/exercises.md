@@ -11,6 +11,6 @@ Using the things we have learned in the "Univariate statistics" portion of our c
 ### 3. Lasso Regression
 Produce a lasso regression model using relative_valuation.csv. The target variable is p/e (price to earning ratio) and the remainder of the data can be used as covariates. The code in baseball_regression_lasso.ipynb will be useful.
 
-### 3. Principal Component Regression (optional)
+### 4. Principal Component Regression (optional)
 Produce a principal component regression model using relative_valuation.csv. The target variable is p/e (price to earning ratio) and the remainder of the data can be used as covariates. The code in baseball_regression_pca.ipynb will be useful.
 
