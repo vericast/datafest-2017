@@ -2,6 +2,10 @@
 
 Note: there is a set of example solutions sitting in this directory. It will be best to try the exercises on your own first and refer to these examples if you become stuck. For each exercise start from a scratch empty notebook so that all of the potential issues with solving a data science problem are apparent. What packages should you import? What cell magics should be used? How are the various pieces of functionanlity you have learned accessed?
 
+### Data Description
+The dataset contains fundamental and market ratios for some of the S&P 500 companies.  We use this dataset to analyze the different factors that affect the price to earnings (P/E) multiple of various firms.  Firms with identical earnings per share can have different price due to several factors such as profitabilty, debt load, tax regime, cash cycle, near-term and long-term growth prospects, business risks etc.  We run simple regression model to identify such factors.
+
+
 ### 1. First Look
 Employ the techniques taught in the "Taking a first look at your data" portion of the course to review the data in file relative_valuation.csv.
 
