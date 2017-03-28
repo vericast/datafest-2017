@@ -17,7 +17,11 @@ other participants in our [Gitter chat
 room](https://gitter.im/maxpoint/datafest-2017).  We'll also have some time at
 the beginning of the session to help you. If you already have an environment
 setup for data analysis with Python, don't worry. These instructions will not
-touch your existing setup.
+touch your existing setup. 
+
+We **highly** recommend following these instructions to get a setup that matches
+what the instructors and other students are using, even if you already have
+Anaconda and Jupyter install.
 
 1. Grab your Windows 7+, Mac OS X 10.11+, or Linux laptop.
 2. Visit [updatemybrowser.org](https://updatemybrowser.org) to make sure you
@@ -97,12 +101,22 @@ After testing your setup, you can clean up by pressing *Ctrl-C* twice in the
 terminal window, closing the terminal window, and closing any Jupyter Notebook
 tabs in your web browser.
 
-### During the Workshop
+## During the Workshop
 
-The instructors will guide you through staring and using Jupyter Notebook to
-analyze sample datasets on the day of the workshop. You can start the notebook
-server before the session begins by opening a command prompt and
-running the following commands.
+If you have **not** setup your laptop following the instructions above, you 
+can do so starting from a thumbdrive that the instructors will hand out at 
+the start of the workshop.
+
+1. Plug the thumbdrive into your laptop.
+2. Find the installer that matches your operating system.
+3. Drag the installer to your Downloads folder. **Do not** try to run the installer
+   from the thumbdrive. You'll be waiting forever for it to complete.
+4. Continue with the setup instructions for Windows, Mac, or Linux **above**.
+
+After you have all of the necessary software set up, the instructors will guide 
+you through staring and using Jupyter Notebook to analyze sample datasets on 
+the day of the workshop. You can start the notebook server before the session 
+begins by opening a command prompt and running the following commands.
 
 ### Windows
 
@@ -111,8 +125,11 @@ running the following commands.
 cd
 # activates the conda environment you installed
 datafest\Scripts\activate
+# makes sure you have the latest and greatest workshop materials
+cd datafest-2017
+git pull origin master
 # runs a Jupyter Notebook server for local use
-jupyter notebook --notebooks-dir .\datafest-2017\notebooks
+jupyter notebook --notebooks-dir .\notebooks
 ```
 
 ### Mac / Linux
@@ -122,8 +139,11 @@ jupyter notebook --notebooks-dir .\datafest-2017\notebooks
 cd ~
 # activates the conda environment you installed
 source datafest/bin/activate
+# makes sure you have the latest and greatest workshop materials
+cd datafest-2017
+git pull origin master
 # runs a Jupyter Notebook server for local use
-jupyter notebook --notebooks-dir ./datafest-2017/notebooks
+jupyter notebook --notebooks-dir ./notebooks
 ```
 
 ### During DataFest
