@@ -146,7 +146,7 @@ git pull origin master
 jupyter notebook --notebooks-dir ./notebooks
 ```
 
-### During DataFest
+## During DataFest
 
 You can reuse the tools from the workshop during DataFest. Simply run the
 commands from the previous section to start Jupyter Notebook and have at it!
