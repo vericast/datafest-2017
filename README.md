@@ -129,7 +129,7 @@ datafest\Scripts\activate
 cd datafest-2017
 git pull origin master
 # runs a Jupyter Notebook server for local use
-jupyter notebook --notebooks-dir .\notebooks
+jupyter notebook --notebook-dir .\notebooks
 ```
 
 ### Mac / Linux
@@ -143,7 +143,7 @@ source datafest/bin/activate
 cd datafest-2017
 git pull origin master
 # runs a Jupyter Notebook server for local use
-jupyter notebook --notebooks-dir ./notebooks
+jupyter notebook --notebook-dir ./notebooks
 ```
 
 ## During DataFest
